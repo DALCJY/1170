@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UFT-8">
+        <title>New energy vehicles VS gasoline vehicles</title>
+        <link rel="stylesheet" href="VS.css" />
+
+    </head>
+    <link rel="icon" href="fav icon.png">
+    <body>
+        <nav>
+            <ul>
+                <li><a href="index.html">Homepage</a></li>
+                <li><a href="New energy vehicles VS gasoline vehicles.html">New VS Old</a></li>
+                <li><a href="Zero to 100 acceleration comparison.html">0 to 100</a></li>
+            </ul>
+        </nav>
+        <button id="toggleMode">Toggle Mode</button>
+
+        <h1 class="h"><span>Electric vehicles VS gasoline vehicles</span></h1>
+        <table border="1" class="tt">
+            <tr>
+                <td></td>
+                <td>electric vehicle</td>
+                <td>gasoline vehicles</td>
+                <td>winner</td>
+            </tr>
+            <tr>
+                <td>maintenance cost</td>
+                <td>cheaper</td>
+                <td>more expensive</td>
+                <td>electric vehicle</td>
+            </tr>
+            <tr>
+                <td>discharge externally</td>
+                <td>can</td>
+                <td>can not</td>
+                <td>electric vehicle</td>
+            </tr>
+            <tr>
+                <td>exterior</td>
+                <td>Very cool</td>
+                <td>very ordinary</td>
+                <td>electric vehicle</td>
+            </tr>
+            <tr>
+                <td>Wading water</td>
+                <td>very good</td>
+                <td>very bad</td>
+                <td>electric vehicle</td>
+            </tr>
+            <tr>
+                <td>riding comfort</td>
+                <td>very comfortable</td>
+                <td>Some bumps and downs</td>
+                <td>electric vehicle</td>
+            </tr>
+            <tr>
+                <td>noise</td>
+                <td>very quiet</td>
+                <td>Very noisy</td>
+                <td>electric vehicle</td>
+            </tr>
+        </table>
+        <div class="im">
+        <img src="VS.png" alt="a picture for New energy vehicles VS gasoline vehicles also is a link" width="800" height="425">
+        </div>
+
+        <form id="surveyForm">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required><br>
+        
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" pattern=".+@dal.ca" title="Email must be a dal.ca address" required><br>
+            <p id="email-error" class="error-message"></p>
+
+            <label for="phone">Phone:</label>
+            <input type="tel" id="phone" name="phone" required><br>
+        
+            <label for="age">Age:</label>
+            <select id="age" name="age" required>
+                <option value="">--Please choose an option--</option>
+                <option value="18-24">18-24</option>
+                <option value="25-34">25-34</option>
+                <option value="35-44">35-44</option>
+            </select><br>
+        
+            <label for="feedback">Feedback:</label>
+            <textarea id="feedback" name="feedback" required></textarea><br>
+        
+            <button type="submit">Submit</button>
+            <div id="form-messages"></div>
+        </form>
+    </body>
+    <script src="VS.js"></script>
+</html>
