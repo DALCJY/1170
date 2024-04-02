@@ -1,0 +1,343 @@
+@media screen  and (min-width:1200px) {
+    .BMWBYD{
+        display: flex;
+        justify-content: center;
+    }
+    
+    .item{
+        text-align: center;
+        margin: 5px 5px;
+    }
+    .item > img {
+        display: flex;
+        width:690px;
+        height:350px;
+    }
+      
+    .item > p {
+        margin-top: 10px;
+        border: 2px solid rgb(255, 173, 173);
+        margin: 25px;
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+    h1,h3{
+        display: flex;
+        justify-content: center;    
+        text-align: center;
+    }
+    .link{
+        display: flex;
+        justify-content: center;    
+        text-align: center;
+        flex-direction: row-reverse;
+    }
+    ol{
+        list-style-type: style;
+        display: flex;
+        padding: 5px;
+        border: 4px double rgb(165, 220, 179);
+    }
+    .A{
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .B{
+        padding-left: 30px;
+        padding-right: 30px;
+    
+    }
+    .C{
+        padding-left: 30px;
+        padding-right: 30px;
+    
+    }
+    .D{
+        padding-left: 30px;
+        padding-right: 15px;
+    
+    }
+    .Blink{
+        display: flex;
+        justify-content: center;    
+        text-align: center;
+    }
+    
+    .BBB{
+        width: auto; /* 自动调整宽度以适应容器 */
+        max-width: 100%; /* 最大宽度不超过容器宽度 */
+        height: auto; /* 高度自动 */
+    }
+    .CCC{
+        flex: 1; /* 让子元素平分可用空间 */
+        display: flex;
+        align-items: center; /* 如果需要，使内容垂直居中 */
+        justify-content: center; /* 水平居中内容 */}
+    .DDD{
+        display: flex;
+        justify-content: center;
+
+    }
+    *{
+        background-color: azure;
+    }
+    h1,h3{
+            display: flex;
+            justify-content: center;    
+            text-align: center;
+    }
+    p+div{
+        display: flex;
+        padding-left: 15%;
+    }
+    nav ul {
+        display: flex;
+        list-style: none;
+        padding: 0;
+        margin: 0;
+      }
+      nav ul li {
+        margin-right: 20px;
+      }
+      nav ul li a {
+        text-decoration: none;
+        color: #ff3434;
+        font-weight: bold;
+        transition: color 0.3s ease;
+      }
+      nav ul li a:hover {
+        color: #007bff;
+      }
+      
+
+    .BB{
+        display: flex; /* 开启Flexbox布局 */
+        flex-wrap: nowrap; /* 防止内容换行 */
+        align-items: center; /* 子元素垂直居中 */
+        justify-content: flex-start; /* 子元素靠左对齐 */
+        padding: 10px; /* 根据需要可调整内边距 */
+        gap: 20px; /* 子元素之间的间隙 */
+        margin-left: 160px;
+        margin-right: 160px;
+    }
+    }
+    @media screen  and (max-width:1200px) and (min-width:900px){
+        .BMWBYD{
+            display: flex;
+            justify-content: center;
+        }
+        
+        .item{
+            text-align: center;
+            margin: 5px 5px;
+        }
+        .item > img {
+            display: flex;
+            width:690px;
+            height:350px;
+        }
+          
+        .item > p {
+            margin-top: 10px;
+            border: 2px solid rgb(255, 173, 173);
+            margin: 25px;
+            margin-left: 100px;
+            margin-right: 100px;
+        }
+        h1,h3{
+            display: flex;
+            justify-content: center;    
+            text-align: center;
+        }
+        .link{
+            display: flex;
+            justify-content: center;    
+            text-align: center;
+            flex-direction: row-reverse;
+        }
+        ol{
+            list-style-type: style;
+            display: flex;
+            padding: 5px;
+            border: 4px double rgb(165, 220, 179);
+        }
+        .A{
+            padding-left: 30px;
+            padding-right: 30px;
+        }
+        .B{
+            padding-left: 30px;
+            padding-right: 30px;
+        
+        }
+        .C{
+            padding-left: 30px;
+            padding-right: 30px;
+        
+        }
+        .D{
+            padding-left: 30px;
+            padding-right: 15px;
+        
+        }
+        .Blink{
+            display: flex;
+            justify-content: center;    
+            text-align: center;
+        }
+        
+        .BBB{
+            display: flex;
+            justify-content: center;    
+            text-align: center;
+            margin: 10px;
+        }
+        .CCC{
+            display: flex;
+            padding-left: 15%;
+            padding-right: 15%;
+            text-indent: 2rem;
+        }
+        .DDD{
+            display: flex;
+            padding-left: 15%;
+        }
+        *{
+            background-color: azure;
+        }
+        h1,h3{
+                display: flex;
+                justify-content: center;    
+                text-align: center;
+        }
+        p+div{
+            display: flex;
+            padding-left: 15%;
+        }
+        nav ul {
+            display: flex;
+            list-style: none;
+            padding: 0;
+            margin: 0;
+          }
+          nav ul li {
+            margin-right: 20px;
+          }
+          nav ul li a {
+            text-decoration: none;
+            color: #ff3434;
+            font-weight: bold;
+            transition: color 0.3s ease;
+          }
+          nav ul li a:hover {
+            color: #007bff;
+          }
+        
+    }
+    
+    @media screen  and (max-width:900px) {
+        .BMWBYD{
+            display: flex;
+            flex-direction: column;
+        }
+        .item{
+            text-align: center;
+            margin: 5px 5px;
+        }
+        .item > img {
+            display: flex;
+            width:690px;
+            height:350px;
+        }
+          .item > p {
+            margin-top: 10px;
+            border: 2px solid rgb(255, 173, 173);
+            margin: 25px;
+            margin-left: 100px;
+            margin-right: 100px;
+        }
+        .link{
+            display: flex;
+            justify-content: center;    
+            text-align: center;
+            flex-direction: row-reverse;
+        }
+        ol{
+            list-style-type: style;
+            display: flex;
+            padding: 5px;
+            border: 4px double rgb(165, 220, 179);
+        }
+        .A{
+            padding-left: 30px;
+            padding-right: 30px;
+        }
+        .B{
+            padding-left: 30px;
+            padding-right: 30px;
+        
+        }
+        .C{
+            padding-left: 30px;
+            padding-right: 30px;
+        
+        }
+        .D{
+            padding-left: 30px;
+            padding-right: 15px;
+        
+        }
+        .Blink{
+            display: flex;
+            justify-content: center;    
+            text-align: center;
+        }
+        .BBB{
+            display: flex;
+            justify-content: center;    
+            text-align: center;
+            margin: 10px;
+        }
+        .CCC{
+            display: flex;
+            padding-left: 0%;
+            padding-right: 0%;
+            text-indent: 2rem;
+        }
+        .DDD{
+            display: flex;
+            padding-left: 15%;
+        }
+        p~div{
+            display: flex;
+            padding-left: 0%;
+        }
+        *{
+            background-color: azure;
+        }
+        h1,h3{
+            display: flex;
+            justify-content: center;    
+            text-align: center;
+        }
+        nav ul {
+            display: flex;
+            list-style: none;
+            padding: 0;
+            margin: 0;
+          }
+          nav ul li {
+            margin-right: 20px;
+          }
+          nav ul li a {
+            text-decoration: none;
+            color: #ff3434;
+            font-weight: bold;
+            transition: color 0.3s ease;
+          }
+          nav ul li a:hover {
+            color: #007bff;
+          }
+          
+        
+    }
